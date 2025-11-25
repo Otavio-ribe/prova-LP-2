@@ -34,7 +34,7 @@ try:
         arquivo.write(",Nota\n")
 
     for livro in livros:
-        livro = livro.strip()  
+        livro = (livro.strip())
 
       
         nota = ler_nota(f"Digite a nota de 0 a 10 para o livro '{livro}': ")
